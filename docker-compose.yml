@@ -3,7 +3,7 @@ version: '2'
 services:
 
   postgres:
-    image: debezium/postgres:11
+    image: debezium/postgres:16
     environment:
       POSTGRES_PASSWORD: postgres
     command: postgres -c config_file=/home/config/postgresql.conf
